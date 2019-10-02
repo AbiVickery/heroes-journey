@@ -24,10 +24,12 @@ let hour = 1;
 var spider;
 let spider = health * 2 + 50;
 // The giant spider has a health level of 250 and does 30 points of damage per attack.
+var damage;
+let damage = 10;
+let spider = damage * 2;
 // Dodging the giant spider's attack will require 20 points of energy.
 // When the hero defeats the giant spider they will be rewarded 100 gold coins.
 
 
 
 
-let hero = 100;
