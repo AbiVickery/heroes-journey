@@ -1,6 +1,8 @@
 
 // Hero's Journey
 // The hero is on an adventure.
+var health;
+let health = 100;
 var hero;
 var heroHealth;
 var heroMana;
@@ -19,6 +21,8 @@ let coin = 1;
 var hour;
 let hour = 1;
 // The hero will battle a giant spider with a sword that does 30 points of damage, as well as a eldritch blast that does 20 points of damage.
+var spider;
+let spider = health * 2 + 50;
 // The giant spider has a health level of 250 and does 30 points of damage per attack.
 // Dodging the giant spider's attack will require 20 points of energy.
 // When the hero defeats the giant spider they will be rewarded 100 gold coins.
