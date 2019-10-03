@@ -17,6 +17,10 @@ let heroEnergy = 100;
 // They will meet an man who happens to be a healer along the way that will sell them a healing potion for 10 gold coins, that restores their health back to full strength.
 var coin;
 let coin = 1;
+var gold;
+let gold = 50;
+var goldCoin;
+let goldCoin = 1 * 50;
 // The hero will need to rest for 3hrs to restore their mana and energy.
 var hour;
 let hour = 1;
